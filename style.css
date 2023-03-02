@@ -1,0 +1,135 @@
+body {
+    background-color: #ecf2ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+    .container{
+        border-color: #333;
+    }
+    
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+    
+    h1 {
+    color: #3e54ac;
+    text-align: center;
+    margin-top: 5px;
+    }
+    .h {
+        color: #3e54ac;
+        text-align: center;
+        margin-top: 0;
+        }
+    
+    .book-list {
+    margin-top: 2rem;
+    }
+    
+    
+    #book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    li {
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    li span {
+    color: #333;
+    font-size: 1.1rem;
+    }
+    
+    li button {
+    color: #fff;
+    background-color: #3e54ac;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    li button:hover {
+    background-color: #655dbb;
+    }
+    
+    li button:first-child {
+    margin-right: 1rem;
+    }
+    
+    
+    .add-book {
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    }
+    
+    .add-book h2 {
+    color: #3e54ac;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    }
+    
+    input[type="text"] {
+    padding: 0.5rem;
+    border: solid;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    }
+    
+    button[type="submit"] {
+    color: #fff;
+    background-color: #3e54ac;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    button[type="submit"]:hover {
+    background-color: #655dbb;
+    }
+    
+    
+    @media (max-width: 600px) {
+    .container {
+    padding: 1rem;
+    }
+    
+    li {
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    li span {
+    display: block;
+    margin-bottom: 0.5rem;
+    }
+    
+    li button:first-child {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    }
+}
+  
